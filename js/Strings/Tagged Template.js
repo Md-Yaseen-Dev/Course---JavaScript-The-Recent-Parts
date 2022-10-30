@@ -24,4 +24,4 @@ console.log(output);
 
 //  in a sentence it access index values such as `this for index[0]`, `is a for index[1] .... 
 
-// and $ sign is used to access a variable which we decalred such as name, age
+// and $ sign is used to access a variable which we decalred such as name, age   
