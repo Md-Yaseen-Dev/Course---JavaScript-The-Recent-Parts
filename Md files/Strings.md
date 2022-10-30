@@ -53,7 +53,7 @@ function myTag(strings,nameExp, ageExp){
 
     const agestr = ageExp >30 ? "senior" : "junior"
 
-    return `${str0}${nameExp}${strl}${agestr}
+    return `${str0}${nameExp}${strl}${agestr}`
 }
 const output = myTag `This ${name} is a $(age)`
 ```
