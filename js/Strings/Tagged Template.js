@@ -15,13 +15,13 @@ function myTag(strings,nameExp, ageExp){
     return `${str0}${nameExp}${str1}${agestr}${str2}` ;
 }
 
-const output = myTag `This ${name} is a ${age} to a cricket `
+const output = myTag `This ${name} is a ${age} to the  cricket `
 
 console.log(output);
 
 
 // here above function  we can acces strings and arrays by using tagged templates. and with the help of expression(i.e call back function) .
 
-//  in a sentence it access index values such as `this for index[0]`, `is a for index[1] .... 
+//  in a sentence it access index values such as `this for index[0]` , `is a for index[1] ....  to the cricket for index[2]
 
 // and $ sign is used to access a variable which we decalred such as name, age   

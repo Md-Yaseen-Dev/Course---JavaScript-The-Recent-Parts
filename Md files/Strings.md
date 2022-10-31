@@ -32,6 +32,19 @@ Ex \b , \f ,\r \t ,\v  etc.
 
 ``In simple words to understands easily ,it is an example like IIFE . and IIFE works when we involed. so same thing  happens with string it is immediately goes and construct built and drop it.``
 
+To escape a backtick in a template literal, put a backslash(\) before the back tick is strictly equal to strings as shown in the example below
+
+*example*
+
+```javascript
+`\ ` === " " // ouput : true
+
+`\${name}`=== "${name}" // true  because  dollar signs can be escaped as well to prevent interpolation
+
+
+`` === ""  // true
+```
+
 ### To know more about click below :- 
 
   &#8594; [*strings*](../js/Strings/Template%20Strings.js)
