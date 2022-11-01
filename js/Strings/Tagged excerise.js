@@ -1,5 +1,5 @@
 function upper(strings, values) {
-    var ret = "";
+        var ret = "";
     // console.log(ret);
     for (let i = 0; i < strings.length; i++) {
         if (i > 0) {
@@ -120,6 +120,20 @@ console.log(
 
 
 
-// // var arrq = ["sum ", "add"]
+//  var arrq = ["sum ", "add"]
+
+// console.log(arrq[1].toUpperCase())
+
+
+//  Example : 2
+
+   const sports = ["kabbadi","cricket","volleyball"]
+
+      const upcase = String(sports).toUpperCase();
+
+      console.log(sports[0]);
+      console.log(upcase);
+
+      console.log(`${sports}` ==="kabbadi,cricket,volleyball" )
 
 // // console.log(arrq[1].toUpperCase())
