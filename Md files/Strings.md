@@ -70,3 +70,26 @@ function myTag(strings,nameExp, ageExp){
 }
 const output = myTag `This ${name} is a $(age)`
 ```
+
+
+## String.protoype.trim()
+
+The trim() method removes whitespace from both ends of a string and returns a new string, without modifiying the original string.
+
+*example*
+  
+  ```javascript
+  var str = "     johnsonberg     "
+
+     console.log(str.trim()) // output : "johnsonberg"
+
+  ```
+
+  Note:-in the middle of the string spaces it will not do trim.
+
+
+  >### To know more about click the link below :- 
+
+ * > `trim` &#8594;[Click-Here](../js/Strings/Padding%20and%20trimming.js)
+
+ * > `padding`&#8594;[Click-Here](../js/Strings/Padding%20and%20trimming.js)
