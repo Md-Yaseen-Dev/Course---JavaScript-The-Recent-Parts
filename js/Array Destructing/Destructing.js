@@ -1,4 +1,4 @@
-// Destructing means decomposing a structure into its individual parts.
+// Destructing means decomposing a structure into its individual parts.         ~ destructuring declartive
 
 // The desturcting assiginment syntax is a javascript expression that makes it possible to unpack values form arrays or properties from objects, into disticnt variables.
 
@@ -16,3 +16,24 @@ console.log(rest);
 console.log (a);
 console.log (b);
 
+
+//  -------------------kyle simpson  -----------------
+
+var tmp = getsomeRecords();
+
+var first = tmp[0];
+var second = tmp[1];
+
+var firstName = first.name;
+var firstEmail = first.email !== undefined ? first.email : "nobodyAnone@gmail.com"
+console.log(firstName);
+
+
+// example
+
+
+var [
+    {name :firstname,
+     Email:firstEmail}
+
+] = getsomeRecords();
