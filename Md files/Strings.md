@@ -71,6 +71,38 @@ function myTag(strings,nameExp, ageExp){
 const output = myTag `This ${name} is a $(age)`
 ```
 
+## string.padding()
+ The padding is used to add from left to right (or) start to end until it reaches to the length.
+
+ Padding are consist of two types
+    1. padstart()
+    2. padEnd()
+
+
+####   1.padStart() :- 
+
+  The padstaart() methods pads the current string to another string until the resulting string reaches the given length. and it is applied from the from left side.of a string /start of the string.
+
+  **for Example** 
+
+  ``` javascript
+   var str = "hello readme "
+   console.log(str.padStart(15, "-"))//output: --"hello readme 
+  ```
+        
+
+####   2.padEnd():-
+The padEnd() method pads the current string with a given string so that the resulting string reaches a given length. The padding is applied from the end of the current string.
+
+
+**for Example** 
+
+  ``` javascript
+   var str = " hello readme "
+   console.log(str.padEnd(15, "-"))//output: "hello readme --"
+  ```
+
+
 
 ## String.protoype.trim()
 
