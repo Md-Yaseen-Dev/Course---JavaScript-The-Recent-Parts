@@ -14,7 +14,7 @@ var tmp ;
 console.log("destructing :" + thirdclass);
 console.log(tmp)
 
-//If we no need of that properties we can use commas and thid called as array ellison.
+//If we no need of that properties we can use commas and this called as array ellison.
 
 
 //  swaping normal

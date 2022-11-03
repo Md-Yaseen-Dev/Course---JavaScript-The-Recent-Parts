@@ -9,6 +9,7 @@ function parameter(tmp) {
     ] = tmp;
 }
 
+console.log(parameter(first,second))
 // const s = parameter(10,20,30)
 // console.log(s);
 
@@ -89,3 +90,4 @@ function parameter1([
  
 
 }
+
