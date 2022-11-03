@@ -103,5 +103,5 @@ var {
     prop:value,
     source:target,
 
-    // here role is not important at all the 
+    // here role is not important at all the property serving to source and value to target. so remember that property always goes on the left.
 } =o;
