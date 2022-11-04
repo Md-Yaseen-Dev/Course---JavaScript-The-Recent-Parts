@@ -48,3 +48,36 @@ console.log(it1.next());
 console.log(it1.next());
 
 console.log([...maths(4,5)]); // it prints in array
+
+
+// for of loop  in generator
+
+var obj = {
+  a:"saleh bhai",
+  b: "rashid bhai",
+  c: "danish bhai",
+  *[Symbol.iterator](){
+    for (let key of Object.keys(this)){
+      // yield this[key];
+      yield [key ,this[key]];
+    }
+  }
+};
+console.log(obj)
+console.log([...obj])
+
+console.log([...obj.a]) // it returns every element of a with a string
+
+
+
+// note that object doesnot iterator automatically  so, we create manually
+// var someobj = {
+//   1: "sun",
+//   b: "mon",
+//   c: "tue",
+//   d: "wed",
+//   e : "thu"
+// }
+// const it22 = someobj[Symbol.iterator]();
+
+// console.log(it22)
