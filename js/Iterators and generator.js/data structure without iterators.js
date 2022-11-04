@@ -12,25 +12,23 @@
 
 // to create own facatory function
 
-var obj = {
+var obj= {
     a: 1,
     b: 3,
-    c: 5
-
-    [Symbol.iterator] = function() {
+    c: 5,
+   [Symbol.iterator] :function() {
         var keys = Object.keys(this);
         var index = 0;
 
         return {
-            next: () => (index.keys.length) ? { done: false, value: this[keys[index]] } :
-                                            {done:true, value:undefined}
+            next: () => (index < keys.length) ? { done: false, value: this[keys[index++]] } :
+                { done: true, value: undefined }
 
         };
 
     }
 };
-// const a = [...obj]; why
-console.log(obj)
-console.log([obj])
-
-// console.log(a)
+const o = [...obj] 
+console.log(o);
+console.log(obj);
+console.log([obj]);
