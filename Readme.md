@@ -7,4 +7,4 @@
 
 * `Array methods`-> <u>[Click-Here](./Md%20files/Array%20methods.md)
 
-* `Iterables and enerators`-> <u>[Click-Here](./Md%20files/Iterable%20%26%20generators.md)
+* `Iterables and generators`-> <u>[Click-Here](./Md%20files/Iterable%20%26%20generators.md)
