@@ -1,9 +1,9 @@
 // Generator
-// The generator object is returned by a generator functioon and it conforms to both the iterable protocol and th iterator protocol.
+// The generator object is returned by a generator function and it confirms to both the iterable protocol and the iterator protocol.
 
-// asteric is a special kind of fucntion is called generators
+// asteric is a special kind of function is called generators
 
-// gnerators when you invoked with them , they dont run they produce iterators
+// generators when you invoked with them , they dont run they produce iterators
 
 // these yeild allows a generator to produce additonal values every time it iterators
 
@@ -12,6 +12,7 @@ function *main() {
     yield 1;
     yield 2;
     yield 3;
+    yield 4;
     return 4;
 
 
@@ -23,6 +24,8 @@ console.log(it.next());
 console.log(it.next());
 console.log(it.next());
 console.log(it.next());
+console.log(it.next());
+
 
 console.log([...main()])  // it consume protocol and stops when it is true.
 
