@@ -47,7 +47,10 @@
     var [archievedOrders,currentOrders] =
     await Promise.all([
         archievedOrders(user.id),
-        fetchCurrentOrders(user.id)
+        currentOrders(user.id)
     ]);
 }
-main()
+var a  =  main();
+console.log(a)
+
+
