@@ -18,6 +18,7 @@ function myTag(strings,nameExp, ageExp){
 const output = myTag `This ${name} is a ${age} to the  cricket `
 
 console.log(output);
+console.log(myTag ` ${name}`)
 
 
 // here above function  we can acces strings and arrays by using tagged templates. and with the help of expression(i.e call back function) .
