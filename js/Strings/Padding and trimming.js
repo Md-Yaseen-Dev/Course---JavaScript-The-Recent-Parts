@@ -20,5 +20,5 @@ console.log(string.padStart(30)) // it will return to the number with the empty 
 //  trimming have start and end .
 
 
-var str = "some stuff    \df\f"
-console.log(str.trim(2));
+var str = " some stuff  \af\f  " // it removes whitespace from both ends of  a string and returns a new string.
+console.log(str.trim());

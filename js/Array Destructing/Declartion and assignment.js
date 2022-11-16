@@ -30,7 +30,7 @@ var firstclass, secondclass, thirdclass;
     firstclass,
     secondclass,
     thirdclass
-] = tmp = classroom()
+] = classroom()
 console.log("destructing :" + secondclass);
 
 

@@ -10,8 +10,8 @@ function parameter(tmp) {
 }
 
 console.log(parameter(first,second))
-// const s = parameter(10,20,30)
-// console.log(s);
+// const s1 = parameter(10,20,30);
+// console.log(s1);
 
 // Destructing parameters
 
@@ -41,7 +41,7 @@ function parameter1([
 //     ...fourth
 // ] = tmp = data();
 
-// // console.log(tmp) // it gives typeerror :object null is not iterable
+// console.log(tmp) // it gives typeerror :object null is not iterable
 
 //  it gives type error
 
