@@ -1,0 +1,1 @@
+ - > **Link for javascript:-**  [Array-Destructing](../js/Array%20Destructing/)

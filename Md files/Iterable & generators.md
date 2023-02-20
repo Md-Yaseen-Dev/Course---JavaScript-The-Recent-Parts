@@ -1,0 +1,1 @@
+ - > **Link for javascript:-**  [Iterable & generators](../js/Iterators%20and%20generator.js/)

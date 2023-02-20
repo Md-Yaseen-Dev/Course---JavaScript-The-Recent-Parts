@@ -1,0 +1,1 @@
+ - > **Link for javascript:-**  [Object-Destructing](../js/Object%20%20Destructing/)
